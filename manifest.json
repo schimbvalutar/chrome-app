@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "Cursul valutar într-un nou tab",
+    "description": "Afișează principalele 4 cotații ale cursului valutar stabilit de BNR de fiecare dată când deschizi un nou tab.",
+    "version": "1.2",
+    "short_name": "Curs valutar în tab nou",
+    "browser_action": {
+        "default_icon": "icon-48.png",
+        "default_title": "Cursul valutar într-un nou tab"
+    },
+    "background": {
+        "scripts": [
+            "app/js/bg.js"
+        ]
+    },
+    "icons": {
+        "16": "icon-16.png",
+        "48": "icon-48.png",
+        "128": "icon-128.png"
+    },
+    "permissions": [
+        "https://*.schimbvalutar.com/*"
+    ],
+    "chrome_url_overrides": {
+        "newtab": "app.html"
+    },
+    "content_security_policy": "script-src 'self' https://*.schimbvalutar.com; object-src 'self'"
+}

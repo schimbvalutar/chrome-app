@@ -6,4 +6,4 @@
 
 - - -
 
-[View extension in Google Store](https://chrome.google.com/webstore/detail/cursul-valutar-%C3%AEntr-un-no/kgmcpgahheemdllmeopkogaejpkdekhi "Cursul valutar într-un nou tab")
+[View extension in Google Chrome Store](https://chrome.google.com/webstore/detail/cursul-valutar-%C3%AEntr-un-no/kgmcpgahheemdllmeopkogaejpkdekhi "Cursul valutar într-un nou tab")
